@@ -5,85 +5,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - malta</title>
+  <meta name="description" content="A list of small web apps coded by Safdar.">
+  <title>Projects - Safdar's Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="main">
-    <h1>A list of web apps I coded</h1>
-    <p class="tip">click on the app name for live preview!</p>
-
-    <div class="subsection">
-      <h2>educational apps for kids</h2>
-      <a class="linkText" target="_blank" href="educational-apps-for-kids/lineReader/">
-        <p>LineReader</p>
-        <p>A magnifier. Make text more readable by zooming in</p>
-      </a>
-      <a class="linkText" target="_blank" href="educational-apps-for-kids/math-worksheet-generator/">
-        <p>Math Worksheet Generator</p>
-        <p>Print addition and subtraction worksheets. Customizable upper and lower number limits</p>
-      </a>
-      <a class="linkText" target="_blank" href="educational-apps-for-kids/kaida/">
-        <p>Kaida</p>
-        <p>Basic shapes and sounds of individual letters. English and Urdu</p>
-      </a>
-    </div>
-
-    <div class="subsection">
-      <h2>games</h2>
-      <a class="linkText" target="_blank" href="theOdinProject-javascript/memory-game/build">
-        <p>Pick and Remember</p>
-        <p>A memory game where you win by picking all the items without double picking anything</p>
-      </a>
-      <a class="linkText" target="_blank" href="theOdinProject-javascript/tic-tac-toe">
-        <p>Tic Tac Toe</p>
-        <p>A game for two players where they take turns marking a 3x3 grid with X or O. The first player to get three of their marks in a row wins</p>
-      </a>
-      <a class="linkText" target="_blank" href="theOdinProject-foundations/rock-paper-scissors/">
-        <p>Rock Paper Scissors</p>
-        <p>rock beats scissors, scissors beat paper, and paper beats rock</p>
-      </a>
-    </div>
-
-    <div class="subsection">
-      <h2>basic tools</h2>
-      <a class="linkText" target="_blank" href="theOdinProject-javascript/todo-list">
-        <p>Todo List</p>
-        <p>A cheap clone of google keep. Supports Local Storage</p>
-      </a>
-      <a class="linkText" target="_blank" href="theOdinProject-foundations/etch-a-sketch/">
-        <p>Sketchpad</p>
-        <p>Draw freely on a square board. Make pixel art</p>
-      </a>
-      <a class="linkText" target="_blank" href="theOdinProject-javascript/openweathermap">
-        <p>Weather Check</p>
-        <p>A very basic Weather Checker using openweathermap's api</p>
-      </a>
-      <a class="linkText" target="_blank" href="theOdinProject-foundations/calculator/">
-        <p>Calculator</p>
-        <p>Just a calculator</p>
-      </a>
-      <a class="linkText" target="_blank" href="theOdinProject-javascript/image-slider">
-        <p>image slider</p>
-        <p>Image slider with control buttons</p>
-      </a>
-    </div>    
-
-    <div class="subsection">
-      <h2>Other Apps</h2>
-      <a class="linkText" target="_blank" href="/feed-energy-protien/">
-        <p>Feed Energy Protien</p>
-        <p>A nutrition calculator for formulating chicken feed</p>
-      </a>
-    </div>
-  </div>
-    
-  <div class="logoContainer">
-    <a href="./index.html">
-      <img src="logo.png" alt="orange fruit logo" class="bounce-in-top">
+  <header class="site-header">
+    <a class="site-logo" href="./index.html">
+      <img src="logo.png" alt="orange fruit logo">
     </a>
-  </div>
+    <a class="site-name" href="./index.html">Safdar</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="nav-link" href="./index.html">Home</a>
+      <a class="nav-link" href="./projects.html" aria-current="page">Projects</a>
+    </nav>
+  </header>
+
+
+    <main class="main container" data-projects>
+      <h1>Projects</h1>
+      <p class="tip">A collection of small web apps I coded. The demo and source links open in a new tab.</p>
+      <noscript>
+        <p class="tip">Enable JavaScript to see the project list.</p>
+      </noscript>
+    </main>
+
+
+  <footer class="site-footer">
+    <p>© 2026 Safdar</p>
+  </footer>
+
+  <script src="projects.js"></script>
 </body>
 
 </html>
