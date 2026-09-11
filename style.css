@@ -276,13 +276,78 @@ button:focus-visible {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px 24px;
   color: var(--color-ink-faint);
   font-size: var(--font-small);
   text-align: center;
 }
 
-.site-footer a {
-  color: var(--color-ink-soft);
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icon {
+  display: inline-flex;
+  color: var(--color-ink-faint);
+}
+
+.footer-icon:hover {
+  color: var(--color-accent);
+}
+
+.footer-icon-svg {
+  width: 22px;
+  height: 22px;
+}
+
+.footer-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.footer-pin-svg {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.footer-time-svg {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-clock {
+  font-variant-numeric: tabular-nums;
 }
 
 /* ============================================================
